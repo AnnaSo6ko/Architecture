@@ -1,0 +1,25 @@
+@media (max-width: 1100px) {
+    main {
+        .clients_prior, .clients_block {
+            margin: 0 15px;
+            text-align: center;
+            .clients_block_item {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        .clients_block {
+            height: 350px;
+            flex-direction: column;
+            margin-top: 20px;
+            .clients_block_item {
+                margin: 15px 0;
+            }
+        }
+    }
+}

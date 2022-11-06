@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+    footer {
+        div.footer {
+            height: 220px;
+            .container {
+                max-width: 560px;
+                .row {
+                    .social {
+                        flex-direction: column;
+                        .social_media {
+                            padding-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 565px) {
+    footer {
+        div.footer {
+            height: 230px;
+            .container {
+                max-width: 355px;
+                .row {
+                    margin: 0 15px;
+                    align-items: center;
+                    .social {
+                        align-items: center;
+                        text-align: center;
+                        .social_info {
+                            p {
+                                font-size: $font-size_xs;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

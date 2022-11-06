@@ -1,0 +1,26 @@
+main {
+    .staircase {
+        background: url(./../images/IMAGE1.svg);
+        background-repeat: no-repeat;
+        height: 600px;
+        .container {
+            .row {
+                height: 600px;
+                align-items: center;
+                .staircase_add {
+                    padding-left: 15px;
+                    h4 {
+                        color: $color;
+                        font-weight: 400;
+                        font-size: $font-size_sm;
+                        letter-spacing: 2px;
+                    }
+                    span {
+                        color: $beige;
+                        font-size: $font-size_x;
+                    }
+                }
+            }
+        }
+    }
+}

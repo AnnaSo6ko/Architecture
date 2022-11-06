@@ -1,0 +1,33 @@
+@media (max-width: 1115px) {
+    main {
+        .house1 {
+            .container {
+                .row {
+                    div.house_add_1 {
+                        position: inherit;
+                        .color {
+                            background-color: #ebedecb8;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        .house1 {
+            .container {
+                .row {
+                    div.house_add1 {
+                        margin-right: 20px;
+                        .color {
+                            background-color: inherit;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

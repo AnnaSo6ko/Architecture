@@ -1,0 +1,30 @@
+main {
+    .house {
+        background: url(./../images/font.svg);
+        background-repeat: no-repeat;
+        height: 600px;
+        .container {
+            .row {
+                height: 600px;
+                justify-content: flex-end;
+                align-items: center;
+                .house_add {
+                    margin-right: 10px;
+                    h4 {
+                        font-weight: 400;
+                        font-size: $font-size_sm;
+                        color: $color;
+                        letter-spacing: 2px;
+                    }
+                    span {
+                        color: $beige;
+                        font-size: $font-size_x;
+                    }
+                    .color {
+                        background-color: #e9e9e991;
+                    }
+                }
+            }
+        }
+    }
+}

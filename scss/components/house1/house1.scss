@@ -1,0 +1,28 @@
+main {
+    .house1 {
+        background: url(./../images/IMAGE.svg);
+        background-repeat: no-repeat;
+        height: 600px;
+        .container {
+            .row {
+                height: 600px;
+                justify-content: flex-end;
+                align-items: center;
+                .house_add1 {
+                    margin-right: 10px;
+                    position: relative;
+                    h4 {
+                        font-weight: 400;
+                        font-size: $font-size_sm;
+                        color: $color;
+                        letter-spacing: 2px;
+                    }
+                    span {
+                        color: $beige;
+                        font-size: $font-size_x;
+                    }
+                }
+            }
+        }
+    }
+}

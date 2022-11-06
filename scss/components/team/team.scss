@@ -1,0 +1,67 @@
+main {
+    .team {
+        background-color: $white;
+        height: 592px;
+        .container {
+            .row {
+                flex-wrap: nowrap;
+                .team_informations {
+                    margin-right: 37px;
+                    margin-top: 96px;
+                    max-width: 30%;
+                    h2 {
+                        font-weight: 400;
+                        font-size: $font-size_2xxl;
+                        line-height: 38px;
+                        color: $color;
+                        margin-bottom: 14px;
+                    }
+                    p {
+                        color: $beige;
+                        font-size: $font-size_m;
+                        line-height: 24px;
+                        margin-bottom: 41px;
+                    }
+                    .team_informations_add {
+                        a {
+                            letter-spacing: 0.4px;
+                            font-size: $font-size_x;
+                            color: $black;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                .team_staff {
+                    margin-top: 96px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .team_staff_about {
+                        margin-bottom: 52px;
+                        width: 50%;
+                        height: 100px;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        img {
+                            margin-right: 30px;
+                        }
+                        .our_item_img_block {
+                            h4 {
+                                font-weight: 400;
+                                font-size: $font-size_1xl;
+                                line-height: 26px;
+                                color: $black;
+                                margin-bottom: -7px;
+                            }
+                            span {
+                                color: $beige;
+                                font-size: $font-size_sm;
+                                line-height: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

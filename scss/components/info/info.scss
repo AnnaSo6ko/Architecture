@@ -1,0 +1,49 @@
+main {
+    max-width: $breakpoint_xxl;
+    margin: 0 auto;
+    .info {
+        background-image: url(./../images/background.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: $back; 
+        .container {
+            .row {
+                height: 720px;
+                align-content: center;
+                .info_wishbone {
+                    width: 509px;
+                    .title {
+                        background: #ece7e4bd;
+                        box-shadow: 0px 0px 17px 3px rgba(236, 231, 228, 0.2);
+                        border-radius: 3px;
+                    }
+                    h5 {
+                        color: $beige;
+                        font-size: $font-size_sm;
+                        letter-spacing: 2px;
+                        font-weight: 400;
+                    }
+                    h1 {
+                        font-size: 64px;
+                        font-weight: 400;
+                        line-height: 70px;
+                        margin: 20px 0 18px 0;
+                    }
+                    p {
+                        font-size: $font-size_x;
+                        line-height: 24px;
+                        color: $color;
+                        margin-bottom: 41px;
+                    }
+                    a {
+                        font-size: $font-size_x;
+                        margin-top: 41px;
+                        color: $black;
+                        margin-left: 25px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }      
+    }
+}

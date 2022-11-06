@@ -1,0 +1,32 @@
+.header {
+    max-width: $breakpoint_xxl;
+    margin: 0 auto;
+    background-color: $white;
+    .row {
+        justify-content: space-between;
+        height: 90px;
+        align-items: center;
+        .header_logo {
+            padding-left: 55px;
+        }
+        .header_main {
+            ul {
+                display: flex;
+                li {
+                    padding: 11px 16px;
+                    a {
+                        font-size: $font-size_m;
+                    }
+                }
+                li:hover {
+                    padding: 11px 20px;
+                    background-color: $black;
+                    border-radius: 14px;
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

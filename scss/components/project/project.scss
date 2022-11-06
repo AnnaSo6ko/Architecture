@@ -1,0 +1,91 @@
+main {
+    .project {
+        background-color: $back_07;
+        .container {
+            .row {
+                flex-direction: column;
+                .project_banner {
+                    padding-top: 113px;
+                    max-width: 50%;
+                    margin-bottom: 44px;
+                    h2 {
+                        font-weight: 400;
+                        font-size: $font-size_3l;
+                        line-height: 42px;
+                        color: $black;
+                        margin-bottom: 15px;
+                    }
+                    h4 {
+                        font-weight: 400;
+                        font-size: $font-size_2xl;
+                        line-height: 30px;
+                        color: $beige;
+                    }
+                }
+                .project_all {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                .project_all_read {
+                    background-image: url(./../images/sdb.svg);
+                    width: 375px;
+                    background-size: cover;
+                    .project_read_info {
+                        h5 {
+                            font-weight: 400;
+                            font-size: $font-size_sm;
+                            line-height: 20px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            color: $beige;
+                            margin: 40px 0 0 40px;
+                        }
+                        h4 {
+                            font-weight: 400;
+                            font-size: $font-size_1xxl;
+                            line-height: 30px;
+                            color: $color;
+                            margin-left: 40px;
+                            margin-top: -5px;
+                        }
+                        .project_read_info_a {
+                            background: $black;
+                            border-radius: 14px;
+                            width: 133px;
+                            height: 46px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: nowrap;
+                            margin: 282px 0 0 45px;
+                            a {
+                                font-weight: 400;
+                                font-size: $font-size_x;
+                                line-height: 24px;
+                                letter-spacing: 0.4px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+                .project_view {
+                    margin-bottom: 111px;
+                    margin-top: 53px;
+                    h5 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                            font-size: $font-size_x;
+                            font-weight: 400;
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

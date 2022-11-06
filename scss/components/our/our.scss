@@ -1,0 +1,48 @@
+main {
+    .our {
+        height: 782px;
+        background-color: $white;
+        .container {
+            padding-top: 96px;
+            .row {
+                justify-content: center;
+                h2 {
+                    line-height: 38px;
+                    font-size: $font-size_2xxl;
+                    font-weight: 400;
+                    margin-right: 133px;
+                    color: $color;
+                }
+                .our_item {
+                    width: 493px;
+                    p {
+                        font-size: $font-size_x;
+                        color: $color;
+                        margin-bottom: 10px;
+                    }
+                    &_img {
+                        margin-top: 8px;
+                        display: flex;
+                        align-items: center;
+                        img {
+                            margin-right: 30px;
+                        }
+                        &_block {
+                            h4 {
+                                font-weight: 400;
+                                font-size: $font-size_xl;
+                                color: $black;
+                                margin: 0;
+                                margin-bottom: -7px;
+                            }
+                            span {
+                                color: $beige;
+                                font-size: $font-size_sm;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

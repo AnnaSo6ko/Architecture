@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .process_our {
+        flex-wrap: wrap;
+        &_item {
+            margin-bottom: 25px;
+        }
+    }
+}

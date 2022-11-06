@@ -1,0 +1,31 @@
+@media (max-width: 860px) {
+    .header {
+        padding-top: 30px;
+        .container {
+            max-width: $breakpoint_s;
+            .row {
+                justify-content: center;
+                align-content: inherit;
+                height: auto;
+                .header_logo {
+                    margin-bottom: 20px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .header {
+        .container {
+            max-width: $breakpoint_sm;
+            .header_main {
+                ul {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

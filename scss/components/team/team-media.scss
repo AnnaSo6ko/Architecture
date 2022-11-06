@@ -1,0 +1,103 @@
+@media (max-width: 960px) {
+    main {
+        .team {
+            .container {
+                max-width: 768px;
+                .row {
+                    .team_informations {
+                        margin-left: 15px;
+                    }
+                    .team_staff {
+                        div.team_staff_about {
+                            margin-bottom: 20px;
+                            img {
+                                margin-right: 20px;
+                            }
+                            .our_item_img_block {
+                                h4 {
+                                    font-size: $font-size_m;
+                                }
+                                span {
+                                    font-size: $font-size_xs;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    main {
+        .team {
+            max-height: 450px;
+            .container {
+                max-width: 560px;
+                .row {
+                    div.team_informations {
+                        margin-left: 15px;
+                        h2 {
+                            font-size: $font-size_1sxl;
+                            line-height: normal;
+                        }
+                        p {
+                            font-size: $font-size_xs;
+                        }
+                    }
+                    .team_staff {
+                        div.team_staff_about {
+                            margin-bottom: 0;
+                            padding-right: 5px;
+                            img {
+                                max-width: 65px;
+                            }
+                            .our_item_img_block {
+                                h4 {
+                                    font-size: $font-size_xs;
+                                    line-height: normal;
+                                }
+                                span {
+                                    font-size: $font-size_2xs;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 565px) {
+    main {
+        div.team {
+            max-height: 635px;
+            height: 635px;
+            .container {
+                max-width: 355px;
+                .row {
+                    flex-direction: column;
+                    align-items: center;
+                    div.team_informations {
+                        max-width: 100%;
+                        margin: 80px 16px 0;
+                        text-align: center;
+                        .team_informations_add {
+                            a {
+                                margin: 0;
+                            }
+                        }
+                    }
+                    div.team_staff {
+                        margin-top: 35px;
+                        .team_staff_about {
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

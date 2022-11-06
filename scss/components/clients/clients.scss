@@ -1,0 +1,47 @@
+main {
+    .clients {
+        background-color: $color;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: $back;
+        .container {
+            .row {
+                align-content: center;
+                align-items: center;
+                justify-content: space-around;
+                .clients_prior {
+                    width: 451px;
+                    h4 {
+                        font-weight: 400;
+                        font-size: $font-size_sm;
+                        letter-spacing: 2px;
+                    }
+                    h2 {
+                        color: #FFFFFF;
+                        font-weight: 400;
+                        font-size: $font-size_2xxl;
+                        line-height: 38px;
+                    }
+                    p {
+                        font-weight: 400;
+                        font-size: $font-size_m;
+                        line-height: 24px;
+                        margin-top: 14px;
+                    }
+                }
+                .clients_block {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-content: space-around;
+                    align-items: center;
+                    width: 432px;
+                    height: 290px;
+                    &_item {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

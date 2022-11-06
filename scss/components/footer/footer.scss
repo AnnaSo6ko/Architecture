@@ -1,0 +1,40 @@
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    .footer {
+        height: 204px;
+        background-color: $back_07;
+        .container {
+            .row {
+                flex-direction: column;
+                .wishbone {
+                    padding-top: 62px;
+                    padding-bottom: 20px;
+                }
+                .social {
+                    display: flex;
+                    justify-content: space-between;
+                    .social_info {
+                        p {
+                            font-size: $font-size_sm;
+                            line-height: 20px;
+                            a {
+                                color: $beige;
+                            }
+                        }
+                    }
+                    .social_media {
+                        display: flex;
+                        align-items: flex-end;
+                        .twitter {
+                            margin-right: 20px;
+                        }
+                        .inst {
+                            margin-right: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

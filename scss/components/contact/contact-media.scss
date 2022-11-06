@@ -1,0 +1,40 @@
+@media (max-width: 800px) {
+    main {
+        div.contact {
+            .container {
+                max-width: 560px;
+                .row {
+                    flex-wrap: wrap;
+                    margin: 0 15px;
+                    padding-top: 100px;
+                    .contact_a {
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 565px) {
+    main {
+        div.contact {
+            .container {
+                max-width: 355px;
+                .row {
+                    .contact_text {
+                        text-align: center;
+                        h2 {
+                            font-size: $font-size_1xxl;
+                        }
+                    }
+                    .contact_a {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}

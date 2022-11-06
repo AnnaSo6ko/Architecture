@@ -1,0 +1,41 @@
+main {
+    .contact {
+        height: 314px;
+        background-color: $contact;
+        .container {
+            .row {
+                padding-top: 113px;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .contact_text {
+                    width: 569px;
+                    h4 {
+                        color: $beige;
+                        font-weight: 400;
+                        font-size: $font-size_sm;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        margin-bottom: -5px;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-size: $font-size_3lx;
+                        line-height: 42px;
+                        color: $black;
+                    }
+                }
+                .contact_a {
+                    a {
+                        color: $black;
+                        font-weight: 400;
+                        font-size: $font-size_x;
+                        line-height: 24px;
+                        letter-spacing: 0.4px;
+                    }
+                }
+            }
+        }
+    }
+}
